@@ -12,3 +12,5 @@ Here's another new change in the new branch.
 
 Here's a change in a third branch.
 Here's a second change in a third branch.
+
+Here's a commit in a fourth branch!
