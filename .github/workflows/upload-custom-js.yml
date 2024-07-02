@@ -47,7 +47,7 @@ jobs:
         uses: optimizely/upload-custom-code-action@1.0.0
         id: upload-custom-code
         with:
-          optimizely-access-token: ${{ secrets.OPTIMIZELY_API_ACCESS_TOKEN }}
+          optimizely-access-token: ${{ secrets.OPTIMIZELY_API_ACCESS_TOKEN_SECRET }}
           code-file-path: ${{ github.event.inputs.code-file-path }}
           custom-code-level: ${{ github.event.inputs.custom-code-level }}
           custom-code-type: ${{ github.event.inputs.custom-code-type }}
