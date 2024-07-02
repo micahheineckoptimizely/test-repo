@@ -43,6 +43,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to upload custom code to an Optimizely experiment
     steps:
+      - name: My first step - check out repository
+        uses: actions/checkout@v4
+        
       - name: Upload custom code
         uses: optimizely/upload-custom-code-action@v1.0.3
         id: upload-custom-code
