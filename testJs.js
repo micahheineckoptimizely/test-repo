@@ -1,1 +1,1 @@
-console.alert("this is a test javascript filel");
+console.log("this is a test javascript file!");
